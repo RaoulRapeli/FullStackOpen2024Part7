@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJhb3VsUmFwZWxpIiwiaWQiOiI2NWJiY2Y2ZmZmYWYwNjgwMzY4ZDA4ODciLCJpYXQiOjE3MDY4MTAxMTV9.YOiZ2f2Ts8Y48cpHMm0Ol_om61yake7tuG8W3wBqXmg
+
+{
+    "title": "Testing4",
+    "author": "Raoul",
+    "url": "www.google.com",
+    "likes": 10
+}
